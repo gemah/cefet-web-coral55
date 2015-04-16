@@ -1,1 +1,120 @@
 @import "fonts/stylesheet.css";
+
+/* Elementos padrão" */
+body{
+    margin: 0;
+}
+
+h1{
+    padding-left: 60px;
+    font-family: 'Ravie', serif;
+    font-size: 36px;
+    color: #e90c0c;
+    text-align: center;
+    line-height: 0.5em;
+    font-weight: normal;
+}
+
+em{
+    color: #d027aa;
+    font-style: normal;
+}
+
+h2{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    font-style: normal; 
+    font-weight: normal;
+    color: #333;
+    text-align: right;
+    padding-right: 10%;
+    line-height: 01em;
+}
+
+h3{
+    font-family: 'Verdana', sans-serif;
+    font-size: 18px;    
+    color: #333
+    font-style: bold;
+    line-height: 1em;
+}
+
+#lateral img:nth-of-type(1){
+    position: fixed;
+    top: 7px;
+    margin-left: -10px;
+}
+
+#lateral img:nth-of-type(2){
+    position: relative;
+    left: 40px;
+    margin-bottom: 14px;
+}
+
+#lateral img:nth-of-type(3){
+    margin-left: -44px;
+}
+
+/* Classes e IDs */
+
+#ticket{
+    float: left;
+    width: 89px;
+    position: fixed;
+    top: 295px;
+    margin-left: -70px;
+}
+
+#ticket:hover{
+    margin-left: 0;
+}
+
+#recipiente{
+    position: absolute;
+    width: 798px;
+    left: 50%;
+    margin-left: -400px;
+    background: linear-gradient(to bottom,#f6f1b2, #4599b2);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d3d3d3;
+}
+
+#lateral{
+    float: left;
+    width: 154px;
+}
+
+#lateral h2{
+    font-weight: bold !important;
+    display: block;
+    padding-bottom: 70px;
+    margin-left:77px;
+    margin-top:180px;
+    margin-bottom: 0px;
+    transform: rotate(270deg);
+    font-size: 48px;
+    left: 0px;
+    padding-left: 24px;
+}
+
+#cardapio{
+    margin-left:154px;
+    padding: 0px 20px 40px 20px;
+    width: 603px;
+    background-color: rgba(255,255,255,0.2);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #aac0ae;
+    font-family: 'Verdana', sans-serif;
+    color: #333;
+    font-size: 14px;
+    line-height: 2em;
+}
+
+#rodape img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 46px 15px 25px 0;
+}
