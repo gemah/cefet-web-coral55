@@ -118,3 +118,7 @@ h3{
     bottom: 0;
     margin: 46px 15px 25px 0;
 }
+
+#preco{
+    text-align: left;
+}
